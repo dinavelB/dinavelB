@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Experience } from "./SectionTwo";
 import { ExpOne } from "../Experiences/AboutExp/Exp1";
 import { ExpTwo } from "../Experiences/AboutExp/Exp2";
 import { ExpThree } from "../Experiences/AboutExp/Exp3";
@@ -9,7 +8,7 @@ export default function Navigate() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Experience" element={<Homepage />}>
+        <Route path="/" element={<Homepage />}>
           <Route path="exp-one" element={<ExpOne />} />
           <Route path="exp-two" element={<ExpTwo />} />
           <Route path="exp-three" element={<ExpThree />} />

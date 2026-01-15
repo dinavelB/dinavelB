@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export function Experience() {
-  const [click, setClick] = useState("/Experience/exp-one");
+  const [click, setClick] = useState("/exp-one");
   const nav = useNavigate();
 
   const navClicked = (path: any) => {
@@ -14,7 +14,7 @@ export function Experience() {
   };
 
   useEffect(() => {
-    nav("/Experience/exp-one");
+    nav("/exp-one");
   }, []);
 
   return (
