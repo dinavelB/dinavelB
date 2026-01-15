@@ -4,7 +4,7 @@ import { projects } from "../Projects/project-list";
 export function Navigation() {
   return (
     <>
-      <nav className="fixed w-full top-0 bg-white flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around">
+      <nav className="fixed w-full top-0 bg-white/70 filter backdrop-blur-lg flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around">
         <label htmlFor="" className="text-2xl">
           dinavelB
         </label>
