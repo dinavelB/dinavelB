@@ -1,4 +1,5 @@
 import "../index.css";
+import profile from "../../profile.jpeg";
 import { projects } from "../Projects/project-list";
 
 export function Navigation() {
@@ -45,7 +46,7 @@ export function MainSection() {
           </div>
         </section>
         <img
-          src="../profile.jpg"
+          src={profile}
           alt=""
           className="w-100 h-full object-contain rounded-full border-blue-800 border-1"
         />
