@@ -1,4 +1,5 @@
 import "../index.css";
+import { projects } from "../Projects/project-list";
 
 export function Navigation() {
   return (
@@ -61,31 +62,20 @@ export function Projects() {
           <h1 className="text-6xl font-extrabold">
             Projects<span className="text-purple-800 text-left">.</span>
           </h1>
-          <section className="w-400 mt-20 flex gap-x-10">
-            <div className="">
-              <img
-                className="object-contain w-800"
-                src="../edLibrary.png"
-                alt=""
-              />
-              <h1 className="mt-10 text-2xl font-extrabold">EdLibrary</h1>
-              <p className="text-xl text-gray-700">
-                A system where users can tracked what books they currently
-                borrowed and books that are available to download
-              </p>
-            </div>
-            <div>
-              <img
-                className="object-contain w-900"
-                src="../edLibrary.png"
-                alt=""
-              />
-              <h1 className="mt-10 text-2xl font-extrabold">EdLibrary</h1>
-              <p className="text-xl text-gray-700">
-                A system where users can tracked what books they currently
-                borrowed and books that are available to download
-              </p>
-            </div>
+          <section className="w-400 mt-20 grid grid-cols-2 gap-10">
+            {projects.map((project, index) => (
+              <div key={index} className="">
+                <img
+                  className="object-contain w-800"
+                  src={project.img}
+                  alt=""
+                />
+                <h1 className="mt-10 text-2xl font-extrabold">
+                  {project.title}
+                </h1>
+                <p className="text-xl text-gray-700">{project.description}</p>
+              </div>
+            ))}
           </section>
         </section>
       </section>
