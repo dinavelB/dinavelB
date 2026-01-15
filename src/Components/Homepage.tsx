@@ -1,4 +1,5 @@
 import { Navigation, MainSection, Projects } from "./HeroSection";
+import { Experience } from "./SectionTwo";
 
 export default function Homepage() {
   return (
@@ -6,6 +7,7 @@ export default function Homepage() {
       <Navigation />
       <MainSection />
       <Projects />
+      <Experience />
     </>
   );
 }

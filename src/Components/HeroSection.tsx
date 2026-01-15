@@ -3,7 +3,7 @@ import "../index.css";
 export function Navigation() {
   return (
     <>
-      <nav className="flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around">
+      <nav className="fixed w-full top-0 bg-white flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around">
         <label htmlFor="" className="text-2xl">
           dinavelB
         </label>
@@ -27,9 +27,10 @@ export function MainSection() {
             Hey,I'm Dinavel
           </label>
           <h1 className="text-8xl font-extrabold">
-            <span className="text-purple-800">Front</span>end Developer
+            <span className="text-purple-800">Full</span>Stack Developer/
+            <span className="text-purple-800">QA</span>Engineer
           </h1>
-          <label htmlFor="" className="text-2xl">
+          <label htmlFor="" className="text-2xl text-gray-700">
             I'm a Full Stack Developer/QA Engineer based on Philippines. Contact
             me and I'll happily help you to build websites catered to users.
           </label>
@@ -68,7 +69,7 @@ export function Projects() {
                 alt=""
               />
               <h1 className="mt-10 text-2xl font-extrabold">EdLibrary</h1>
-              <p className="text-xl">
+              <p className="text-xl text-gray-700">
                 A system where users can tracked what books they currently
                 borrowed and books that are available to download
               </p>
@@ -80,7 +81,7 @@ export function Projects() {
                 alt=""
               />
               <h1 className="mt-10 text-2xl font-extrabold">EdLibrary</h1>
-              <p className="text-xl">
+              <p className="text-xl text-gray-700">
                 A system where users can tracked what books they currently
                 borrowed and books that are available to download
               </p>
