@@ -1,5 +1,5 @@
 import "../index.css";
-import profile from "../../profile.jpeg";
+import profile from "../../profile.jpg";
 import { projects } from "../Projects/project-list";
 
 export function Navigation() {
