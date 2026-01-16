@@ -3,30 +3,54 @@ import profile from "../../profile.jpg";
 import { projects } from "../Projects/project-list";
 
 export function Navigation() {
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -80;
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <>
-      <nav className="fixed w-full top-0 bg-white/70 filter backdrop-blur-lg flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around">
-        <label htmlFor="" className="text-2xl">
-          dinavelB
-        </label>
-        <ul className="flex gap-4 md:gap-10  ">
-          <li className="p-2 hover:text-blue-700">Home</li>
-          <li className=" p-2  hover:text-blue-700">Projects</li>
-          <li className=" p-2  hover:text-blue-700">About</li>
-        </ul>
-        <label htmlFor="">message chat</label>
-      </nav>
-    </>
+    <nav className="fixed w-full top-0 bg-white/70 filter backdrop-blur-lg flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around z-50">
+      <label className="text-2xl">dinavelB</label>
+      <ul className="flex gap-4 md:gap-10">
+        <li
+          className="p-2 hover:text-blue-700"
+          onClick={() => scrollTo("home")}
+        >
+          Home
+        </li>
+        <li
+          className="p-2 hover:text-blue-700"
+          onClick={() => scrollTo("projects")}
+        >
+          Projects
+        </li>
+        <li
+          className="p-2 hover:text-blue-700"
+          onClick={() => scrollTo("about")}
+        >
+          About
+        </li>
+      </ul>
+      <label>message chat</label>
+    </nav>
   );
 }
 
 export function MainSection() {
   return (
     <>
-      <section className="flex justify-center mt-10 p-20 gap-x-50 items-center m-5">
+      <section
+        id="home"
+        className="flex justify-center mt-10 p-20 gap-x-50 items-center m-5"
+      >
         <section className="w-200 flex flex-col gap-y-10">
           <label htmlFor="" className="font-semibold text-2xl">
-            Hey,I'm Dinavel
+            Hey, I'm Dinavel
           </label>
           <h1 className="text-8xl font-extrabold">
             <span className="text-purple-800">Full</span>Stack Developer/
@@ -58,7 +82,7 @@ export function MainSection() {
 export function Projects() {
   return (
     <>
-      <section className="w-full mt-20 flex justify-center">
+      <section id="projects" className="w-full mt-20 flex justify-center">
         <section className="p-20 rounded-4xl shadow-2xl bg-white">
           <h1 className="text-6xl font-extrabold">
             Projects<span className="text-purple-800 text-left">.</span>

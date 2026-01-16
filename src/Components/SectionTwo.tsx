@@ -19,7 +19,7 @@ export function Experience() {
 
   return (
     <>
-      <section className="mt-40 md:flex justify-center mb-40">
+      <section id="about" className="mt-40 md:flex justify-center mb-40">
         <section className="md:w-300">
           <h1 className="text-6xl font-extrabold">
             Experience<span className="text-purple-800">.</span>
