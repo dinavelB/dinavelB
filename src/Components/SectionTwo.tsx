@@ -19,12 +19,12 @@ export function Experience() {
 
   return (
     <>
-      <section id="about" className="mt-40 md:flex justify-center mb-40">
-        <section className="md:w-300">
+      <section id="about" className="mt-40 sm:flex justify-center p-10">
+        <section className="sm:w-full p-5">
           <h1 className="text-6xl font-extrabold">
             Experience<span className="text-purple-800">.</span>
           </h1>
-          <section className="mt-15 md:w-300 flex gap-50">
+          <section className="mt-15 flex gap-10">
             <nav className="flex flex-col gap-y-8 ">
               {experiences.map((option, index) => (
                 <h1

@@ -3,18 +3,18 @@ import { skills } from "../Experiences/skills-lists";
 
 export function Skills() {
   return (
-    <section className="flex justify-center mt-50">
+    <section className="flex justify-center mt-20 sm:p-20">
       <section className="w-300 ">
         <h1 className="text-6xl font-extrabold">
           Skills<span className="text-purple-800">.</span>
         </h1>
-        <section className="flex gap-x-40 W-400 mt-10">
+        <section className="grid gap-x-10 mt-10 sm:grid-cols-2 gap-0">
           {skills.map((skill, index) => (
             <div key={index}>
-              <h1 className="text-3xl font-semibold">{skill.title}</h1>
-              <ul className="mt-10">
+              <h1 className="text-3xl font-semibold sm:mt-10">{skill.title}</h1>
+              <ul className="mt-5">
                 {skill.skills.map((item, i) => (
-                  <li className=" text-xl text-gray-800 pt-3" key={i}>
+                  <li className=" text-xl text-gray-800 pt-1" key={i}>
                     {item}
                   </li>
                 ))}

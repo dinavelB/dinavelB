@@ -2,7 +2,7 @@ import "../index.css";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center  mt-40 p-20">
+    <footer className="flex justify-center p-20">
       <section className="flex justify-between w-300 items-center">
         <div>
           <h1 className="text-2xl text-gray-800 font-semibold">

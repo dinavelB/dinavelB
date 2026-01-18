@@ -14,96 +14,96 @@ export function Navigation() {
   };
 
   return (
-    <nav className="fixed w-full top-0 bg-white/70 filter backdrop-blur-lg flex justify-around pt-5 pb-5 font-semibold text-lg sm:flex justify-around z-50">
-      <label className="text-2xl">dinavelB</label>
+    <nav className="fixed w-full top-0 bg-white/70 backdrop-blur-lg flex justify-around items-center py-5 px-4 font-semibold text-lg z-50">
+      <label className="text-2xl font-bold">dinavelB</label>
       <ul className="flex gap-4 md:gap-10">
         <li
-          className="p-2 hover:text-blue-700"
+          className="p-2 hover:text-blue-700 cursor-pointer"
           onClick={() => scrollTo("home")}
         >
           Home
         </li>
         <li
-          className="p-2 hover:text-blue-700"
+          className="p-2 hover:text-blue-700 cursor-pointer"
           onClick={() => scrollTo("projects")}
         >
           Projects
         </li>
         <li
-          className="p-2 hover:text-blue-700"
+          className="p-2 hover:text-blue-700 cursor-pointer"
           onClick={() => scrollTo("about")}
         >
           About
         </li>
       </ul>
-      <label>message chat</label>
+      <label className="block sm:hidden">message chat</label>
     </nav>
   );
 }
 
 export function MainSection() {
   return (
-    <>
-      <section
-        id="home"
-        className="flex justify-center mt-10 p-20 gap-x-50 items-center m-5"
-      >
-        <section className="w-200 flex flex-col gap-y-10">
-          <label htmlFor="" className="font-semibold text-2xl">
-            Hey, I'm Dinavel
-          </label>
-          <h1 className="text-8xl font-extrabold">
-            <span className="text-purple-800">Full</span>Stack Developer/
-            <span className="text-purple-800">QA</span>Engineer
-          </h1>
-          <label htmlFor="" className="text-2xl text-gray-700">
-            I'm a Full Stack Developer/QA Engineer based on Philippines. Contact
-            me and I'll happily help you to build websites catered to users.
-          </label>
-          <div className="flex gap-x-10">
-            <button className="transition ease-in-out duration-300 transform bg-purple-800 px-4 p-2 text-white rounded-lg hover:-translate-y-2 hover:bg-blue-500">
-              Get in touch
-            </button>
-            <button className="transition ease-in-out duration-300 transform px-4 p-2 rounded-lg border border-black hover:bg-blue-500 hover:text-white hover:-translate-y-2">
-              Browse Projects
-            </button>
-          </div>
-        </section>
+    <section
+      id="home"
+      className="w-full flex flex-col-reverse sm:flex-col-reverse items-center justify-center sm:mt-24 px-4 sm:px-10 overflow-x-hidden gap-10"
+    >
+      {/* Text Content */}
+      <div className="flex-1 flex flex-col gap-6 max-w-lg">
+        <label className="font-semibold text-2xl">Hey, I'm Dinavel</label>
+        <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight">
+          <span className="text-purple-800">Full</span>Stack Developer /
+          <span className="text-purple-800"> QA</span> Engineer
+        </h1>
+        <p className="text-gray-700 text-lg">
+          I'm a Full Stack Developer/QA Engineer based in the Philippines.
+          Contact me and I'll happily help you build websites catered to users.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <button className="transition transform bg-purple-800 text-white px-6 py-2 rounded-lg hover:-translate-y-1 hover:bg-blue-500">
+            Get in touch
+          </button>
+          <button className="transition transform border border-black px-6 py-2 rounded-lg hover:bg-blue-500 hover:text-white hover:-translate-y-1">
+            Browse Projects
+          </button>
+        </div>
+      </div>
+
+      {/* Profile Image */}
+      <div className="flex-1 flex justify-center">
         <img
           src={profile}
-          alt=""
-          className="w-100 h-full object-contain rounded-full border-blue-800 border-1"
+          alt="profile"
+          className="w-64 sm:w-72 md:w-80 rounded-full border-2 border-blue-800 object-cover"
         />
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 
 export function Projects() {
   return (
-    <>
-      <section id="projects" className="w-full mt-20 flex justify-center">
-        <section className="p-20 rounded-4xl shadow-2xl bg-white">
-          <h1 className="text-6xl font-extrabold">
-            Projects<span className="text-purple-800 text-left">.</span>
-          </h1>
-          <section className="w-400 mt-20 grid grid-cols-2 gap-10">
-            {projects.map((project, index) => (
-              <div key={index} className="">
-                <img
-                  className="object-contain w-800"
-                  src={project.img}
-                  alt=""
-                />
-                <h1 className="mt-10 text-2xl font-extrabold">
-                  {project.title}
-                </h1>
-                <p className="text-xl text-gray-700">{project.description}</p>
-              </div>
-            ))}
-          </section>
-        </section>
-      </section>
-    </>
+    <section
+      id="projects"
+      className="w-full flex justify-center px-4 sm:p-10 mt-20 overflow-x-hidden"
+    >
+      <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl p-8 sm:p-12">
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-10">
+          Projects<span className="text-purple-800">.</span>
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
+            <div key={index} className="flex flex-col gap-4">
+              <img
+                src={project.img}
+                alt={project.title}
+                className="w-full max-w-full h-auto object-contain rounded-lg"
+              />
+              <h2 className="text-2xl font-bold">{project.title}</h2>
+              <p className="text-gray-700 text-lg">{project.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
