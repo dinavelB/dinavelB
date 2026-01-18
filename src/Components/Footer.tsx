@@ -2,8 +2,8 @@ import "../index.css";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center p-20 min-[400px]:max-[639px]:p-10">
-      <section className="flex justify-between w-full items-center min-[400px]:max-[639px]:flex-col gap-y-10">
+    <footer className="flex justify-center sm:p-10 min-[300px]:max-[639px]:p-5">
+      <section className="flex justify-between w-full items-center min-[300px]:max-[639px]:flex-col gap-y-10">
         <div>
           <h1 className="text-2xl text-gray-800 font-semibold">
             Interested working with me?

@@ -15,8 +15,10 @@ export function Navigation() {
 
   return (
     <nav className="fixed w-full top-0 bg-white/70 backdrop-blur-lg flex justify-around items-center py-5 px-4 font-semibold text-lg z-50">
-      <label className="text-2xl font-bold">dinavelB</label>
-      <ul className="flex gap-4 md:gap-10">
+      <label className="min-[370px]:text-xl sm:text-2xl font-bold">
+        dinavelB
+      </label>
+      <ul className="flex sm:gap-4 md:gap-10 min-[360px]:max-[639px]:gap-x-1 font-normal">
         <li
           className="p-2 hover:text-blue-700 cursor-pointer"
           onClick={() => scrollTo("home")}
