@@ -19,9 +19,9 @@ export function Experience() {
 
   return (
     <>
-      <section id="about" className="mt-40 sm:flex justify-center p-10">
+      <section id="about" className=" sm:flex justify-center p-10">
         <section className="sm:w-full p-5">
-          <h1 className="text-6xl font-extrabold">
+          <h1 className="min-[400px]:max-[639px]:text-4xl lg:text-6xl font-extrabold">
             Experience<span className="text-purple-800">.</span>
           </h1>
           <section className="mt-15 flex gap-10">
@@ -29,7 +29,7 @@ export function Experience() {
               {experiences.map((option, index) => (
                 <h1
                   key={index}
-                  className={`transition ease-in-out duration-300 pl-4 text-2xl ${
+                  className={`transition ease-in-out duration-300 pl-4 min-[400px]:max-[639px]:text-xl lg:text-2xl ${
                     click === option.path
                       ? "border-l-2 border-blue-800 text-blue-800"
                       : "hover:text-blue-800"

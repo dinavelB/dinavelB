@@ -36,7 +36,9 @@ export function Navigation() {
           About
         </li>
       </ul>
-      <label className="block sm:hidden">message chat</label>
+      <label className="block max-[640px]:min-[400px]:hidden">
+        message chat
+      </label>
     </nav>
   );
 }
@@ -45,7 +47,7 @@ export function MainSection() {
   return (
     <section
       id="home"
-      className="w-full flex flex-col-reverse sm:flex-col-reverse items-center justify-center sm:mt-24 px-4 sm:px-10 overflow-x-hidden gap-10"
+      className="w-full flex flex-col-reverse sm:flex-col-reverse items-center justify-center px-4 min-[400px]:max-[639px]:mt-30 sm:mt-30 sm:px-10 overflow-x-hidden gap-10"
     >
       {/* Text Content */}
       <div className="flex-1 flex flex-col gap-6 max-w-lg">
@@ -84,7 +86,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="w-full flex justify-center px-4 sm:p-10 mt-20 overflow-x-hidden"
+      className="w-full flex justify-center px-4 min-[400px]:max-[630px]:p-10 sm:p-10 overflow-x-hidden"
     >
       <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl p-8 sm:p-12">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-10">
