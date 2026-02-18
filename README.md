@@ -1,9 +1,3 @@
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dinavelB&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinavelB&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" />
-</div>
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinavelB&theme=minimal&bg_color=00000000&hide_border=true&color=58A6FF&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&title_color=58A6FF" width="95%" />
 </div>
