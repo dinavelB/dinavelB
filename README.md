@@ -23,7 +23,7 @@
 ## Get in Touch
 
 - GitHub: [@dinavelB](https://github.com/dinavelB)
-- LinkedIn: [Dinavel Binongo](https://www.linkedin.com/in/binongo-dinavel-escodero-924a62337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- LinkedIn: [Binongo, Dinavel Escodero](https://www.linkedin.com/in/binongo-dinavel-escodero-924a62337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: kyomichan0206@gmail.com
 
 ---
