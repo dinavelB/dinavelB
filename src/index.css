@@ -3,3 +3,61 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer utilities {
+  .grid-responsive {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  @media (min-width: 342px) {
+    .grid-responsive {
+      margin-top: 1cm;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      flex: auto;
+      justify-items: center;
+    }
+    .tittle-responsive{
+      margin-left: 0.5cm;
+      font-size: xx-large;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .grid-responsive {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid-responsive {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  
+  /* Custom grid with 342px as minimum */
+  .grid-custom {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  @media (min-width: 342px) {
+    .grid-custom {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .grid-custom {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid-custom {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+}

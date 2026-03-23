@@ -9,9 +9,9 @@ export default function Navigate() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />}>
-          <Route path="exp-one" element={<ExpOne />} />
-          <Route path="exp-two" element={<ExpTwo />} />
-          <Route path="exp-three" element={<ExpThree />} />
+          <Route path="Qa-Engineer" element={<ExpOne />} />
+          <Route path="Fullstack-Dev" element={<ExpTwo />} />
+          <Route path="Backend-Dev" element={<ExpThree />} />
         </Route>
       </Routes>
     </BrowserRouter>

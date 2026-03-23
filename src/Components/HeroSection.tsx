@@ -55,12 +55,11 @@ export function MainSection() {
       <div className="flex-1 flex flex-col gap-6 max-w-lg">
         <label className="font-semibold text-2xl">Hey, I'm Dinavel</label>
         <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight">
-          <span className="text-purple-800">Full</span>Stack Developer /
+          <span className="text-purple-800">Backend </span>Web Developer /
           <span className="text-purple-800"> QA</span> Engineer
         </h1>
         <p className="text-gray-700 text-lg">
-          I'm a Full Stack Developer/QA Engineer based in the Philippines.
-          Contact me and I'll happily help you build websites catered to users.
+         Self-taught backend developer with 11 months of experience building production-ready systems from the ground up. Proficient in TypeScript, Node.js, and PostgreSQL. Experienced with Express and NestJS frameworks, and containerization with Docker. Focused on writing clean, maintainable code with security and scalability built in from day one.
         </p>
         <div className="flex flex-wrap gap-4">
           <button className="transition transform bg-purple-800 text-white px-6 py-2 rounded-lg hover:-translate-y-1 hover:bg-blue-500">

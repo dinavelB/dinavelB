@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export function Experience() {
-  const [click, setClick] = useState("/exp-one");
+  const [click, setClick] = useState("/Qa-Engineer");
   const nav = useNavigate();
 
   const navClicked = (path: any) => {
@@ -14,7 +14,7 @@ export function Experience() {
   };
 
   useEffect(() => {
-    nav("/exp-one");
+    nav("/Qa-Engineer");
   }, []);
 
   return (
@@ -24,7 +24,7 @@ export function Experience() {
           <h1 className="min-[300px]:max-[639px]:text-4xl lg:text-6xl font-extrabold">
             Experience<span className="text-purple-800">.</span>
           </h1>
-          <section className="mt-15 flex ">
+          <section className="grid-responsive">
             <nav className="flex flex-col gap-y-8 ">
               {experiences.map((option, index) => (
                 <h1
