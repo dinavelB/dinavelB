@@ -1,7 +1,14 @@
 export const skills: { title: string; skills: string[] }[] = [
   {
     title: "Front End",
-    skills: ["Javascript", "CSS", "ReactJS", "Tailwind CSS", "Framer"],
+    skills: [
+      "Javascript",
+      "CSS",
+      "ReactJS",
+      "Tailwind CSS",
+      "React Router V7",
+      "Shadcn",
+    ],
   },
   {
     title: "Back End",
@@ -10,8 +17,8 @@ export const skills: { title: string; skills: string[] }[] = [
       "Typescript",
       "NodeJS",
       "ExpressJS",
-      "MariaDB",
-      "Postgresql",
+      "NestJS",
+      "PostgreSql",
     ],
   },
   { title: "QA Engineer", skills: ["Cypress", "Jest"] },
