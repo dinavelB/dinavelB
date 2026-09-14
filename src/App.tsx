@@ -1,9 +1,18 @@
-import Navigate from "../src/Components/Navigate.tsx";
-
+import { MainSection } from "@/components/herosection";
+import { Projects } from "@/components/projects";
+import { Experience } from "@/components/experience";
+import { Skills } from "@/components/skills";
+import Footer from "@/components/footer";
+import { Navigation } from "@/components/navbar";
 function App() {
   return (
     <>
-      <Navigate />
+      <Navigation />
+      <MainSection />
+      <Projects />
+      <Experience />
+      <Skills />
+      <Footer />
     </>
   );
 }
