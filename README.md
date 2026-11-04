@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinavelB&theme=minimal&bg_color=00000000&hide_border=true&color=58A6FF&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&title_color=58A6FF" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinavelB&theme=minimal&bg_color=00000000&hide_border=true&color=58A6FF&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&title_color=58A6FF&v=1" width="95%" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dinavelB&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=8B949E&sideNums=8B949E&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" width="95%" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=dinavelB&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=8B949E&sideNums=8B949E&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" width="95%" />
 </div>
 
 ## Tech Stack
@@ -25,5 +25,3 @@
 - GitHub: [@dinavelB](https://github.com/dinavelB)
 - LinkedIn: [Binongo, Dinavel Escodero](https://www.linkedin.com/in/binongo-dinavel-escodero-924a62337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: kyomichan0206@gmail.com
-
----
