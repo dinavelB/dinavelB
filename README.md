@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinavelB&theme=minimal&bg_color=00000000&hide_border=true&color=58A6FF&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&title_color=58A6FF&v=1" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinavelB&theme=transparent&hide_border=true&title_color=58A6FF&color=8B949E&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&v=2" width="95%" />
 </div>
 
 <div align="center">
