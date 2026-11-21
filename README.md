@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dinavelB&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="95%" />
-</div>
+
 
 <div align="center">
   <img src="https://github-readme-streak-stats-eight.vercel.app?user=dinavelB&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=8B949E&sideNums=8B949E&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" width="95%" />
